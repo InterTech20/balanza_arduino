@@ -1,0 +1,17 @@
+https://www.homemade-circuits.com/weighing-scale-circuit-using-load-cell-and-arduino/
+
+-----------------------------------------------------------------------------------------
+https://programarfacil.com/blog/arduino-blog/arduino-via-web-con-firmata/
+johnny-five.io/examples/
+https://soloelectronicos.com/tag/instalar-node-js-arduino/
+
+El módulo Arduino Shield Ethernet permite a una placa Arduino conectarse a internet.
+Se basa en el chip de ethernet Wiznet W5100 (Hoja de datosW5100_Datasheet).
+El chip Wiznet W5100 ofrece una red (IP) capaz de usar TCP y UDP. Soporta 
+hasta cuatro conexiones de socket simultáneas. Utilice la biblioteca de Ethernet 
+para escribir bocetos que se conectan a Internet a través del escudo. El escudo 
+de Ethernet se conecta a una placa Arduino usando largas cabeceras wire-wrap que
+ se extienden a través del escudo. Esto mantiene la disposición de las clavijas 
+intacto y permite que otro escudo pueda ser apilado en la parte superior.
+
+=>https://www.web-robotica.com/arduino/como-funciona-el-modulo-arduino-ethernet-shield
