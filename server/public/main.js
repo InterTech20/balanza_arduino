@@ -1,14 +1,18 @@
 const socket = io();
 
-const temperatureDisplay = document.getElementById('balanza');
+const balanza = document.getElementById('balanza');
 
-socket.on('balanza',function (data) {
-  console.log(data);
+socket.on('data',function (data) {
 balanza.innerHTML =data;
 });
 
 let btn = document.querySelector('#btn');
 btn.addEventListener('click',function(){
-    alert('datos guardados');
+  socket.emit('message', document.getElementById("balanza").innerHTML);
+  alert('datos guardados: '+balanza.innerHTML);
 });
-// 
+
+/*
+Escaner codigo de barras libreria ejemplo: https://ourcodeworld.co/articulos/leer/460/como-crear-un-escaner-de-codigo-de-barras-en-vivo-usando-la-camara-web-en-javascript
+
+*/
